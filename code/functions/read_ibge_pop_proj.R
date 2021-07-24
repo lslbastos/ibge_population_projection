@@ -21,7 +21,8 @@ read_ibge_pop_proj <- function(file) {
                 region == "Rio De Janeiro" ~ "Rio de Janeiro",
                 region == "Rio Grande Do Norte" ~ "Rio Grande do Norte",
                 region == "Rio Grande Do Sul" ~ "Rio Grande do Sul",
-                region == "Mato Grosso Do Sul" ~ "Mato Grosso do Sul"
+                region == "Mato Grosso Do Sul" ~ "Mato Grosso do Sul",
+                TRUE ~ region
             )
         )
     

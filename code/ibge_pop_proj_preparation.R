@@ -12,4 +12,4 @@ download_ibge_pop_proj(filename = "data/pop_ibge_proj_2010-2060.xls")
 
 df <- read_ibge_pop_proj(file = "data/pop_ibge_proj_2010-2060.xls")
 
-write_csv(df, paste0(here::here("output//data_pop_ibge_proj_2010-2016.csv")))
+write_csv(df, paste0(here::here("output/data_pop_ibge_proj_2010-2016.csv")))
