@@ -9,7 +9,7 @@ Data source URL: [IBGE - Projeção da População (BR)](https://www.ibge.gov.br/est
 
 The projection consists in the total number of inhabitants from 2010 to 2060 at country, macroregion and state levels. Data is stratified by age, sex and for each location and year.
 
-The processed/final dataset can be found at [https://github.com/lslbastos/ibge_population_projection/tree/main/output](output/data_pop_ibge_proj_2010-2016.csv)
+The processed/final dataset can be found at [`output/data_pop_ibge_proj_2010-2016.csv`](https://github.com/lslbastos/ibge_population_projection/tree/main/output)
 
 #### Variables
 
